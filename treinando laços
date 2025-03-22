@@ -1,0 +1,73 @@
+
+// for (i = 0; i <= 100; i = i + 1 ) {
+// bloco de codigo
+// console.log (i)
+
+// estado incial - ate quando quer que repita - disparo
+// ++ soma 1  : i = i + 1
+// pode chamar o de qualquer coisa 
+
+// function contagem (limite) 
+//    for (i = 0; i <= limite; i++ )
+//        return console.log(i)
+    
+// }
+//     */
+// //function numerosPares(limite) {
+//     for (i = 0; i <= limite; i = i + 2)
+//             console.log(i);   
+// }
+   
+// numerosPares(20)
+//retorna numeros pares numero divido por 2 
+// se o numero e par ?
+
+function contagem (limite) {
+for (numero = 0; numero <= limite; numero++) {
+} if (numero % 2 === 0 ) 
+      console.log('Este numero e par:', numero )
+}
+contagem (40)
+
+function contagemC (limite) {
+    let somaPares = 0
+    let somaImpares = 0 
+    for (numero = 0; numero <= limite; numero++ ) {
+        if (numero % 2 === 0 ) {
+            somaPares += numero 
+         } else {
+                    somaImpares += numero
+
+                }
+            }
+                return `A soma de pares ${somaPares}, e as dos impares  ${somaImpares}`
+        }
+
+            //laco pare de quando achar o numero 27 estado incial 0 100 
+
+            for (i = 0; i <= 100; i++) {
+                console.log(i)
+                if (i === 27) {
+                    return console.log('Ecnontrei o numero 27')
+                }
+            }
+      
+             tabuada(7)
+
+        function tabuada (numero){
+            for(i = 1; i <=10; i++){
+                console.log(`${numero} x ${i} = ${numero * i }`)
+            }
+        }
+
+        //Contagem regressiva 
+        
+        function contagemRegressiva (value) { 
+            for(i = value; i >= 0; i --) { 
+                if(i === 0) {
+                    console.log('Feliz Ano Novo !')
+                }
+                    console.log (i)
+                }
+            }
+    contagemRegressiva(5)
