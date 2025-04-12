@@ -1,0 +1,105 @@
+body {
+    /*Largura da tela que eu quero que o usuario veja*/
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.cd-container {
+
+    width: 100%;
+}
+
+header {
+    /*posição pra controle para alinhar na horizontal*/
+
+    display: flex;
+    /*vai manipular */
+    justify-content: space-between;
+    /*espaço entre eles e vao seprar as imagens */
+    align-items: center;
+    /*Permite mudar o alinhamento dos elementos flexívei e também centralizas*/
+    padding: 10px;
+}
+
+.cd-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 0 10px;
+    /*espaçamento nas laterais*/
+    padding: 10px 10px;
+}
+
+.cd-title h1 {
+    /*Mudar o h1 e suas fontes*/
+    font-size: large;
+    font-weight: bold;
+
+}
+
+.cd-close {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-image: url(https://www.ipva.fazenda.sp.gov.br/ipvanet_consulta/Images/Graficos/fundo_preto3.gif);
+    /*colocar uma imagem */
+}
+
+.cd-close button { /*Colocar o botão*/
+    padding: 2px 0; /*em cima e em baixo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: none;
+    border: none;
+}
+
+fieldset { /*tirar borda...*/
+    border: none;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column; /*coluna*/
+    align-items: center;
+}
+
+form {
+    width: 60%;
+    border:  1px solid black;
+    display: flex;
+    align-items: center; /*centralizar...*/
+    flex-direction: column;
+    background-color: lightgrey;
+}
+
+button {
+    display: flex;
+    flex-direction: column;
+}
+
+form h3 {
+padding: 6px 0;
+font-size: 13px;
+}
+
+.label {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    width: 50%;
+}
+
